@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMAL PLANET</title>
+   <!-- Bootstrap CSS link -->
+   <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./styles.css">  
+</head>
+<body>
+    <!-- Navigation bar -->  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ANIMAL PLANET</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#animals">Animals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#funFacts">Fun facts</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <!-- Carousel element -->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/shark.webp" class="d-block w-100" alt="Shark">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/giraffe.jpg" class="d-block w-100" alt="Giraffe">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/lion.jpg" class="d-block w-100" alt="Lion">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/elephant.jpeg" class="d-block w-100" alt="elephant">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/horse.jpeg" class="d-block w-100" alt="Horse">
+          </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h1 id="animals" class="section" style="text-align: center;">Animals</h1> 
+
+      <!-- Cards container -->
+      <div class="animals-container">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/shark.webp" class="card-img-top" alt="Shark">
+          <div class="card-body">
+            <h5 class="card-title">Shark</h5>
+            <p class="card-text">The shark, a powerful predator with sleek form and sharp teeth, dominates the oceans with unmatched hunting prowess.</p>
+            <a href="https://en.wikipedia.org/wiki/Shark" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/giraffe.jpg" class="card-img-top" alt="Giraffe">
+          <div class="card-body">
+            <h5 class="card-title">Giraffe</h5>
+            <p class="card-text">The giraffe, with its long neck and graceful stature, epitomizes the beauty and uniqueness of African savannas.</p>
+            <a href="https://en.wikipedia.org/wiki/Giraffe" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/lion.jpg" class="card-img-top" alt="Lion">
+          <div class="card-body">
+            <h5 class="card-title">Lion</h5>
+            <p class="card-text">The lion, majestic and fierce, reigns as the king of beasts with its golden mane and powerful presence.</p>
+            <a href="https://en.wikipedia.org/wiki/Lion" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/elephant.jpeg" class="card-img-top" alt="Elephant">
+          <div class="card-body">
+            <h5 class="card-title">Elephant</h5>
+            <p class="card-text">Elephants are the largest land animals, known for their long trunks, large ears, and strong social bonds.</p>
+            <a href="https://en.wikipedia.org/wiki/Elephant" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/horse.jpeg" class="card-img-top" alt="Horse">
+          <div class="card-body">
+            <h5 class="card-title">Horse</h5>
+            <p class="card-text">Horses are fast, strong mammals known for their agility, intelligence, and long-standing partnership with humans in various activities.</p>
+            <a href="https://en.wikipedia.org/wiki/Horse" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <h1 id="funFacts" class="section" style="text-align: center;">Fun facts</h1>
+
+      <!-- Fun facts container -->
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Fun facts about Sharks
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Sharks have been around for over 400 million years, making them older than dinosaurs. Some species can live for 25-40 years, with the Greenland shark possibly reaching over 400 years. They can detect electrical fields through special organs called ampullae of Lorenzini. Despite their reputation, sharks pose minimal threat to humans, with around 70-100 shark attacks annually worldwide. Some sharks, like the great white, breach out of water while hunting. Their skeletons are made of cartilage, not bone, aiding in agility and speed.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Fun facts about Giraffes
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Giraffes are the tallest land animals, with necks up to 6 feet long, yet they have the same number of neck vertebrae as humans. They only need 5 to 30 minutes of sleep a day, often standing up. Their tongues can extend over 18 inches and are bluish-black to prevent sunburn. Giraffes' hearts weigh around 25 pounds and pump blood up their long necks, thanks to powerful valves preventing blood from rushing to their heads. They communicate through infrasound, low-frequency noises below human hearing range.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Fun facts about Lions
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lions are the only truly social cats, living in prides of up to 30 individuals. They can roar loudly enough to be heard up to 5 miles away. Females are the primary hunters, relying on teamwork to bring down prey like zebras and buffalo. Cubs start learning to hunt at around 11 months old. Male lions defend their territory and offspring from intruders. They have powerful retractable claws and can reach speeds of up to 50 mph in short bursts. Lions spend about 16-20 hours a day resting or sleeping.
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <!-- Footer element -->
+      <footer>
+        Copyright © 2024 Animal Planet. All rights reserved.
+      </footer>
+
+   <!-- Bootstrap JavaScript and jQuery scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script> 
+</body>
+</html>

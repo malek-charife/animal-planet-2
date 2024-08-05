@@ -1,0 +1,17 @@
+.animals-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 24px;
+}
+footer{
+    text-align: center;
+    background-color: #F8F9FA;
+    padding: 24px;
+    border: #676d727e solid 1px;
+}
+.section{
+    text-align: center !important;
+}
